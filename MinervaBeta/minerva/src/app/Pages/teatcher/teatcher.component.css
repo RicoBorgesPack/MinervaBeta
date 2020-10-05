@@ -1,0 +1,44 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+::selection {
+  background: #2D2F36;
+}
+::-webkit-selection {
+  background: #2D2F36;
+}
+::-moz-selection {
+  background: #2D2F36;
+}
+h1{
+	font-family: 'opendyslexic';
+  src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf');
+}
+input, textarea, button{
+  font-family: 'opendyslexic';
+  src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf');
+}
+.container {
+  display: flex;
+  height: 450px;
+  margin: 0 auto;
+  width: 880px;
+}
+.left {
+  background: white;
+  height: 450px;
+  top: 20px;
+  position: relative;
+  width: 10%;
+}
+.right {
+  background: #93a2f5;
+  color: #F1F1F2;
+  position: relative;
+  width: 75%;
+  margin-left: -15px;
+  margin-right: 25px;
+  padding: 20px;
+}
+.example-margin{
+  font-family: 'opendyslexic';
+  src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf');
+}
